@@ -3,4 +3,4 @@
 ## Usage つかいかた
 以下のコマンドを実行するだけ
 
-    vimtutor-jp
+    vimtutor-ja
