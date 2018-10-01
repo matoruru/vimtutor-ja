@@ -9,12 +9,12 @@
 1. 以下のコマンドを実行する
 
 
-       cp ./vimtutor-ja.sh /usr/local/bin/vimtutor-ja
+       cp vimtutor-ja.sh /usr/local/bin/vimtutor-ja
        chmod 755 /usr/local/bin/vimtutor-ja
 
        または
 
-       sudo cp ./vimtutor-ja.sh /usr/local/bin/vimtutor-ja
+       sudo cp vimtutor-ja.sh /usr/local/bin/vimtutor-ja
        sudo chmod 755 /usr/local/bin/vimtutor-ja
 
 ## Usage 使い方
@@ -23,6 +23,6 @@
     vimtutor-ja
 
 ## Uninstall アンインストール
-以下のスクリプトを実行するだけ
+以下のスクリプトを管理者権限で実行するだけ
 
-    ./install.sh
+    sudo bash install.sh
