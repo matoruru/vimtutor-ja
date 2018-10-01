@@ -11,6 +11,13 @@ fi
 cp $ORIGFILE $WORKDIR/$TMPFILE
 chmod 766 $WORKDIR/$TMPFILE
 
-vim $WORKDIR/$TMPFILE
+if [[ "$1" == "usevimrc" ]]; then
+   vim $WORKDIR/$TMPFILE
+elif [[ "$1" == "" ]]; then
+   vim -u NONE $WORKDIR/$TMPFILE
+else
+   echo "that option does not exist."
+   exit
+fi
 
 rm $WORKDIR/$TMPFILE
