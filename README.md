@@ -10,3 +10,8 @@
 以下のコマンドを実行するだけ
 
     vimtutor-ja
+
+## Uninstall アンインストール
+以下のスクリプトを実行するだけ
+
+    ./install.sh
