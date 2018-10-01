@@ -1,7 +1,7 @@
 # vimtutor-ja
 日本語の説明で英語の練習用テキストが使えるvimtutor
 
-## Install インストール
+## Install インストール方法
 1. 以下のスクリプトを実行する
 
        bash install.sh
@@ -22,7 +22,7 @@
 
     vimtutor-ja
 
-## Uninstall アンインストール
+## Uninstall アンインストール方法
 以下のスクリプトを管理者権限で実行するだけ
 
     sudo bash install.sh
