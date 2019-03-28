@@ -25,4 +25,4 @@
 ## Uninstall アンインストール方法
 以下のスクリプトを管理者権限で実行するだけ
 
-    sudo bash install.sh
+    sudo bash uninstall.sh

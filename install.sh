@@ -6,7 +6,7 @@ if [[ ! -f ./vimtutor-ja-en.txt ]]; then
    echo 'the text was not found.'
    echo
    echo 'you may be in wrong directory.'
-   echo 'please MOVE the this repositories directory.'
+   echo 'please MOVE this repositories directory.'
    exit
 fi
 
