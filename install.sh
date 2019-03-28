@@ -14,5 +14,10 @@ if [[ ! -d $WORKDIR ]]; then
    mkdir -p $WORKDIR
 fi
 
+if [[ ! -d ~/.vim/matoruru/vimtutor-ja/ ]];then
+   mkdir -p ~/.vim/matoruru/vimtutor-ja
+   cp essential.vim ~/.vim/matoruru/vimtutor-ja/
+fi
+
 cp ./vimtutor-ja-en.txt $WORKDIR
 chmod 744               $WORKDIR/vimtutor-ja-en.txt
