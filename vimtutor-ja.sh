@@ -14,7 +14,7 @@ chmod 766 $WORKDIR/$TMPFILE
 if [[ "$1" == "usevimrc" ]]; then
    vim $WORKDIR/$TMPFILE
 elif [[ "$1" == "" ]]; then
-   vim -u ~/.vim/matoruru/vimtutor-ja/essential.vim $WORKDIR/$TMPFILE
+   vim -n -u ~/.vim/matoruru/vimtutor-ja/essential.vim $WORKDIR/$TMPFILE
 else
    echo "that option does not exist."
    exit
