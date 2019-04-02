@@ -16,7 +16,7 @@ fi
 
 if [[ ! -d ~/.vim/matoruru/vimtutor-ja/ ]];then
    mkdir -p ~/.vim/matoruru/vimtutor-ja
-   cp essential.vim ~/.vim/matoruru/vimtutor-ja/
+   ln -sr essential.vim ~/.vim/matoruru/vimtutor-ja/
 fi
 
 cp ./vimtutor-ja-en.txt $WORKDIR
